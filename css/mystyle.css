@@ -1,0 +1,140 @@
+body {
+    background-color: #255797;
+    color: #ffffff;
+    margin: 10px 10px 10px 10px;
+    background: linear-gradient(-90deg, #255797,  #888888); /*Standard syntax */
+    font-family: "sans-serif";
+}
+
+.list_head {
+    color: #150950;
+    font-family:"courier", "cursive";
+    font-size: 2em;
+    list-style-type: none;
+    text-indent: -1em; 
+}
+
+#color_box {
+    background-color: white;
+    height: 50px;
+}
+
+.example {
+    height: 500px;
+    border: 2px solid #000000;
+    overflow: scroll;
+}
+
+.navbar .navbar-nav li a {
+    color: #FFFFFF;
+    font-size: 1.5em;
+}
+
+.navbar, .navbar-default .navbar-toggle, .navbar-default .navbar-collapse{
+    background-color: transparent;
+    border-color:#160959;
+}
+
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color:  #160959;
+}
+
+.dropdown-menu {
+    background-color: #eeeeee;
+    color: #150950;
+}
+
+.navbar .navbar-nav li a {
+    color: #150950;
+}
+
+.interactive{
+    height: 200px;
+    text-align: center;
+    font-size: 2em;
+    margin: 0px 0px 20px 0px;
+}
+
+#left_box {
+    background-color: blue;
+}
+
+#bottom_box {
+    background-color: green;
+}
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+	color: #150950;
+    }
+    #bottom_box {
+	height: 320px;
+    }
+    
+    #bottom_box p {
+	font-size: 14px;
+    }
+
+     #bottom_box button {
+	font-size: 18px;
+     }
+
+     .top_i_box {
+	 height: 150px;
+     }
+     
+     #reveal1, #reveal2 {
+	 font-size: 18px;
+     }
+     
+}
+
+.choose {
+    height: 30px;
+    margin: 0px 0px 20px 0px;
+    text-align: center;
+}
+
+#wrong1 {
+    background-color: #11dd39;
+}
+
+#wrong2 {
+    background-color: #213449;
+}
+
+#correct {
+    background-color: #f7724f;
+}
+
+#big_container {
+    color: #123456;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #bottom_box {
+	height: 320px;
+    }
+
+    #reveal1, #reveal2 {
+	 font-size: 24px;
+    }
+
+    .top_i_box {
+	height: 130px;
+    }
+}
+    
+a {
+    color: #7ac0c7;
+}
+
+img {
+    max-width: 200%;
+}
+
+#bottom_box span, .top_i_box span {
+    color: black;
+}
+
