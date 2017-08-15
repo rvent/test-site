@@ -83,6 +83,10 @@ body {
 	 height: 150px;
      }
      
+     .project, .interactive, .choose, .recap_img{
+	 margin: 120px 0px 100px 0px;
+     }
+     
      #reveal1, #reveal2 {
 	 font-size: 18px;
      }
