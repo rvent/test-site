@@ -5,8 +5,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/mystyle.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/myscript.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="myscript.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
@@ -142,7 +142,7 @@
 	<div class="example col-lg-6 col-sm-12"><img src="day2_css_html.jpeg"></div>
       </div>
       <div class="interactive_div">
-	<h1>Project 3 Interactive Website using Javascript</h1>
+	<h1>Project 3 - Interactive Website using Javascript</h1>
 	<p>Now I will add some javascript to my site to make it more interactive. </p>
 	<h1 id="big_container_heading">A hidden Div - Click on the boxes</h1>
 	<div class="col-lg-4 col-sm-4 col-xs-12 choose" id="wrong1" onclick="display('wrong1', 'Wrong!')"></div>
@@ -171,10 +171,21 @@
 	    <h6 class="col-lg-12 col-sm-12 col-xs-12">Type at least 3 or 6 characters from 0-F!</h6>
 	    <input type="text" name="Hex Color" id="hex_color" minlength="3" maxlength="6" size="6"><br>
 	    <button type="button" onclick="addYourColor()" >Check it out</button>
-	    <div class="col-lg-12 col-sm-12 col-xs-12 interactive" id="color_box"></div>
+	    <div class="col-lg-12 col-sm-12 col-xs-12" id="color_box"></div>
 	    <h6 class="col-lg-12 col-sm-12 col-xs-12">The color of the box above changes depending on the hexadecimal number entered in the text box. A warning appears if the input is not the correct length or it has characters that do not correspond to hexadecimal digit.</h6>
+	    <div class="col-lg-12 col-sm-12 col-xs-12 choose" onclick="toggleOnOff('big_container');">Hide Display</div>
 	  </div>
 	</div>
+      </div>
+      <div class="recap_img row">
+	<h1> Images of website with javascript</h1>
+	<p>These are snapshots of how the website looks using bootstrap to design the page. The page is constantly changing and I will continue to show how the site changes. One can see the some of the classes added to the tags and how the menu was created. </p>
+	<div class="example col-lg-6 col-sm-12 thumbnail"><img src="Day2_upload.jpeg"></div>
+	<div class="example col-lg-6 col-sm-12"><img src="day2_css_html.jpeg"></div>
+      </div>
+      </div>
+      <div class="mobile_friendly">
+	<h1>Project 4 - Making the website mobile friendly</h1>
       </div>
     </div>
   </body>
