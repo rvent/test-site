@@ -1,179 +1,36 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head lang="en">
-    <title>Tech Transition</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/mystyle.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/myscript.js"></script>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Assignment 1</title>
+    <link rel="stylesheet" href="css/mystylesheet.css">
   </head>
-  <body onload="display('time_stamp', date()); onBrowserLoad();">
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-	<div class="navbar-header">
-	  <button type="button" class="navbar-toggle collapsed btn btn-default" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false" aria-label="Right Align">
-            <span class="sr-only">Toggle navigation</span>
-	    <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
-	  </button>
-	  <div class="collapse navbar-collapse" id="navbar-collapse-1">
-	    <ul class="nav navbar-nav">
-	      <li><a href="#">Home</a></li>
-	      <li class="dropdown">
-		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects<span class="caret"></span></a>
-		<ul class="dropdown-menu">
-		  <li><a href="#pj1">Project 1</a></li>
-		  <li><a href="#pj2">Project 2</a></li>
-		</ul>
-	      </li>
-	      <li class="dropdown">
-		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Screenshots<span class="caret"></span></a>
-		<ul class="dropdown-menu">
-		  <li><a href="day1_upload.jpeg" target="_blank">First Site Image</a></li>
-		  <li><a href="Day2_upload.jpeg" target="_blank">Second Site Image</a></li>
-		  <li><a href="day1_excss.jpeg" target="_blank">First Site CSS</a></li>
-		  <li><a href="Day1_excode.jpg" target="_blank">First Site HTML</a></li>
-		  <li><a href="day2_css_html.jpeg" target="_blank">Second Site HTML and CSS</a></li>	  
-		</ul>
-	      </li>
-	    </ul>
-	  </div>    
+  <body>
+    <h1>Major Sports</h1>
+    <div class="container">
+      <div class="col-lg-4 col-md-6">
+	<div class="box">
+	  <div class="titular"> Baseball </div>
+	  <p>
+	    Major League Baseball has 30 teams. It is split into two leagues, the American and National league. Each league is split into three divisions, East, Central, and West.The National league teams include the Mets and Nationals. The Yankees, Orioles and Texas Rangers are 3 teams in the American League. The recent champions are the Chicago Cubs.
+	  </p>
 	</div>
       </div>
-    </nav>
-    <div class="container-fluid">
-      <div class="intro row">
-	<h1>My Journey to the Field of Technology </h1>
-	<p>
-	  It seemed like the transition into becoming a &quot;programmer&quot; would be an easy task. I studied math in college and believed that this would be a good start to my career in the tech field. But to be a software developer, I should at least learn how to code. So, I learned how to code. I learned Python and noticed that I was sort of right, knowing math did help me with programming. Boolean logic and algorithms, all things that looked very familiar to me from my college days. However, I have struggled with what projects should I do. What can I make that has not been done already? This thought has been lingering over my head, a barrier preventing me from progressing further. Therefore, I have decided to focus on working on a project daily, regardless if it has been done or not. The goal is to build a portfolio. As cheesy as this may sound, thanks for joining me as complete my journey into the field of technology. 
-	</p>
-      </div>
-      <div class="project row">
-	<h1 id="pj1">Project 1 &ndash; My Website</h1>
-	<p>
-	  I will demonstrate basic html and css skills. The goal is to show some frontend web development.
-	  <div class="col-lg-3 col-sm-6 col-xs-12">
-	    <ol class="Day1" start="0"> 
-	      <li class="list_head">CSS Skill</li>
-	      <li>Knowledge of Attribute Selectors</li>
-	      <ul class="sub_list">
-		<li>Using &#46; for class names</li>
-		<li>Using &#35; for id names</li>
-	      </ul>
-	      <li>Knowledge of Properties and their Values</li>
-	      <ul class="sub_list">
-		<li>color related properties</li>
-		<li>background related properties</li>
-		<li>font related properties</li>
-		<li>formatting properties</li>
-	      </ul>
-	    </ol>
-	  </div>
-	  <div class="col-lg-3 col-sm-6 col-xs-12">
-	    <ol class="Day1" start="0"> 
-	      <li class="list_head">HTML Skills</li>
-	      <li> Knowledge of basic tags</li>
-	      <ul class="sub_list">
-		<li>Headings</li>
-		<li>Unordered and Ordered List</li>
-		<li>Paragraphs</li>
-		<li>Link</li>
-		<li>Title</li>
-		<li>Many More</li>
-	      </ul>
-	      <li>Knowledge of attributes</li>
-	      <ul class="sub_list">
-		<li>id</li>
-		<li>class</li>
-		<li>start</li>
-		<li>Other attributes</li>
-	      </ul>
-	    </ol>
-	  </div>
-	</p>
-      </div>
-      <div class="recap_img row">
-	<h1> Images of First initial website</h1>
-	<p>There will be constant changes to the website. This version of the website does not have a responsive design. I will continue to improve upon the site and post images of the progress that has been made. This is the first image.</p>
-	<div class="example col-lg-4 col-sm-12"><img src="day1_upload.jpeg"></div>
-	<div class="example col-lg-4 col-sm-12"><img src="Day1_excode.jpg"></div>
-	<div class="example col-lg-4 col-sm-12"><img src="day1_excss.jpeg"></div>
-      </div>
-      <div class="project row">
-	<h1 id="pj2">Project 2 &ndash;  Responsive Web Design</h1>
-	<p>I will continue to work on this website. However, I will now use bootstrap to have the website work on different devices. Many of these things I learned from reading online. <a href="https://www.w3schools.com/" target="_blank">W3 schools</a> and the <a href="http://getbootstrap.com/components/" target="_blank">Bootstrap</a> websites were my main resources in creating the menu bar.</p>
-	<p> As I incorporated bootstrap into the site, I started to add more features to the websites. However, I can came into some issues and learned that jquery is used to make the dropdown on the navbar work properly.
-	</p>
-      </div>
-      <div class="project row">
-	<div class="col-lg-3 col-sm-6 col-xs-12">
-	  <ol class="Day2" start="0"> 
-	    <li class="list_head">Bootstrap Skills</li>
-	    <li>Learning the Grid</li>
-	    <ul class="sub_list">
-	      <li>The page is &quot;split&quot; into 12 columns</li>
-	      <li>Using col-lg, col-sm, col-md, col-xs</li>
-	      <li>Using &#64;media when we want different layouts for different media devices</li>
-	    </ul>
-	    <li>Creating a Menu</li>
-	    <ul class="sub_list">
-	      <li>Using the navbar tag</li>
-	      <li>Bootstrap recognizes the navbar and navbar-default class</li>
-	      <li>Use dropdown-menu class for a drop down menu</li>
-	      <li>dropdown-menu class works with navbabar-default at least when using bootstrap&#046;min&#046;css</li>
-	      <li>Jquery was needed to make the dropdown menu work. I used https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js</li>
-	    </ul>
-	  </ol>
-	</div>
-	<div class="col-lg-3 col-sm-6 col-xs-12">
-	  <ol  class="Day2" start="0">
-	    <li class="list_head">More HTML</li>
-	    <li>&amp; followed by numbers or letters can be recognized by the browser and show the symbol. I read that it helps against malicious attacks.</li>
-	    <li>Meta tag give info the the broswer about the site.</li>
-	  </ol>
+      <div class="col-lg-4 col-md-6">
+	<div class="box">
+	  <div class="titular"> Basketball </div>
+	  <p>
+	    Major League Baseball has 30 teams. It is split into two leagues, the American and National league. Each league is split into three divisions, East, Central, and West.The National league teams include the Mets and Nationals. The Yankees, Orioles and Texas Rangers are 3 teams in the American League. The recent champions are the Chicago Cubs.
+	  </p>
 	</div>
       </div>
-      <div class="recap_img row">
-	<h1> Images of website with bootstrap</h1>
-	<p>These are snapshots of how the website looks using bootstrap to design the page. The page is constantly changing and I will continue to show how the site changes. One can see the some of the classes added to the tags and how the menu was created. </p>
-	<div class="example col-lg-6 col-sm-12 thumbnail"><img src="Day2_upload.jpeg"></div>
-	<div class="example col-lg-6 col-sm-12"><img src="day2_css_html.jpeg"></div>
-      </div>
-      <div class="interactive_div">
-	<h1>Project 3 Interactive Website using Javascript</h1>
-	<p>Now I will add some javascript to my site to make it more interactive. </p>
-	<h1 id="big_container_heading">A hidden Div - Click on the boxes</h1>
-	<div class="col-lg-4 col-sm-4 col-xs-12 choose" id="wrong1" onclick="display('wrong1', 'Wrong!')"></div>
-	<div class="col-lg-4 col-sm-4 col-xs-12 choose" id="correct" onclick="toggleOnOff('big_container'); display('correct', 'Right!');" ></div>
-	<div class="col-lg-4 col-sm-4 col-xs-12 choose" id="wrong2" onclick="display('wrong2', 'Wrong!')"></div> 
-	<div class="project row" id="big_container">
-	  <h1> Clicking on the div box that says  &quot;Right!&quot; will display and hide everything below the the boxes above;</h1>
-	  <div class="col-lg-6 col-sm-6 col-xs-12 interactive top_i_box" id="left_box" onclick="displayColor('reveal1', 'reveal2', color1, color2)">
-	    <p>Click Me<p>
-	      <span  class="col-lg-6 col-sm-6 col-xs-12" id="reveal1"></span>
-	      <span  class="col-lg-6 col-sm-6 col-xs-12" id="reveal2"></span>
-	  </div>
-	  <div class="col-lg-6 col-sm-6 col-xs-12 interactive top_i_box" id="right_box" onmouseenter="setBoxColor(); displayColor('reveal1', 'reveal2', '', ''); display('color_change', date());" >
-	    Scroll Over
-	  </div>
-	   <p class="col-lg-12 col-sm-12 col-xs-12"> The Box marked &quot;click me&quot; above shows the name of the colors of the box to the right labeled &quot;scroll over&quot;. Once you enter the &quot;scroll over&quot; box, the names disappear.The &quot;scroll over&quot; boxes changes colors when you scroll over the box.</p>
-	  <div class="col-lg-12 col-sm-12 col-xs-12 interactive" id="bottom_box">
-	    <p> Last load time: <span id="time_stamp"></span></p>
-	    <p> Last Color change: <span id="color_change"></span></p>
-	    <p> Number of color changes: <span id="count"></span></p>
-	    <button class="col-lg-6 col-sm-6 col-xs-12" type="button" onclick="display('count', color_count)" onmouseout="display('count', '')">Click Me!</button>
-	    <button class="col-lg-6 col-sm-6 col-xs-12" type="button" onclick="reset_count(); display('count', color_count);" onmouseout="display('count', '')">Reset!</button>
-	    <h6 class="col-lg-12 col-sm-12 col-xs-12">The load time changes each time you reload the page. The time for the color change only changes after you change the color of the &quot;scroll over&quot; box. </h6>
-	  </div>
-	  <div class="col-lg-12 col-sm-12 col-xs-12 interactive" id="text_box">
-	    <h6 class="col-lg-12 col-sm-12 col-xs-12">Type at least 3 or 6 characters from 0-F!</h6>
-	    <input type="text" name="Hex Color" id="hex_color" minlength="3" maxlength="6"><br>
-	    <button type="button" onclick="addYourColor()" >Check it out</button>
-	    <div class="col-lg-12 col-sm-12 col-xs-12 interactive" id="color_box"></div>
-	    <h6 class="col-lg-12 col-sm-12 col-xs-12">The color of the box above changes depending on the hexadecimal number entered in the text box. A warning appears if the input is not the correct length or it has characters that do not correspond to hexadecimal digit.</h6>
-	  </div>
+      <div class="col-lg-4 col-md-12">
+	<div class="box">
+	  <div class="titular">Football </div>
+	  <p>
+	      Major League Baseball has 30 teams. It is split into two leagues, the American and National league. Each league is split into three divisions, East, Central, and West.The National league teams include the Mets and Nationals. The Yankees, Orioles and Texas Rangers are 3 teams in the American League. The recent champions are the Chicago Cubs.
+	  </p>
 	</div>
       </div>
     </div>
