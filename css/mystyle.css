@@ -53,7 +53,6 @@ body {
     height: 200px;
     text-align: center;
     font-size: 2em;
-    margin: 0px 0px 20px 0px;
 }
 
 #left_box {
@@ -92,7 +91,6 @@ body {
 
 .choose {
     height: 30px;
-    margin: 0px 0px 20px 0px;
     text-align: center;
 }
 
@@ -138,3 +136,6 @@ img {
     color: black;
 }
 
+.project, .interactive, .choose{
+    margin: 0px 0px 40px 0px;
+}
